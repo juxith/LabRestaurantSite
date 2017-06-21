@@ -2,12 +2,17 @@
 <html>
 <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
 <style>
-  .bordered {
+  #bordered {
     width: 400px;
-    height: 200px;
+    height: 215px;
     padding: 20px;
     border: 1px solid red;
-    border-radius: 8px;
+    border-radius: 100px;
+    background-color: #E59866;
+  }
+  #content {
+    background-color:#FAD7A0;
+    padding-top: 50px;
   }
 
 </style>
@@ -15,23 +20,23 @@
 
     <header>
         <title>Taste Spuds - Home</title>
-        <h1>Taste Spuds</h1><hr/>&emsp;
+        <h1>Taste Spuds</h1>&emsp;
     </header>
 
-     <div> 
+     <div><hr/> 
         <a href="index.html">Home</a> &emsp;
         <a href="menu.html">Menu</a> &emsp;
         <a href="contactus.html">Contact Us</a><hr/>
     </div>  
 
     <center><body>
-        <p><img src="images/main.jpg" style="width:400px; height:150px;" /></p>
-        <div class="bordered">
+        <p><div id="content"><img src="images/main.jpg" style="width:400px; height:150px;" /></p>
+        <div id="bordered">
             <h3>Home of the Potatoes</h3><br/>
             At Taste Spuds, you will find your favorite spud served like never before. Fried, baked, mashed and fired up. 
             We have Yukon Gold, Idaho, Sweet, Baby Red and many more. You name it; we've got it. All served savory and delicous. 
             All selections are from locally grown farmers right here in good ole' Minnesota. 
-        </div>
+        </div></div>
     </body></center>
     <br/>
 
