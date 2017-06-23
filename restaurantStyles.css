@@ -1,4 +1,28 @@
 
+a {
+    text-decoration: none;
+}
+
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
 footer {
     text-align: center;
     position: absolute;
