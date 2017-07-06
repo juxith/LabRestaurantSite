@@ -49,10 +49,19 @@ header {
     background-color: orange;
 }
 
-h1 {
-    font-family: garamond;
-}
-
-body {
+#overrideBody {
     background-color: lightgoldenrodyellow;
 }
+
+#overrideNav {
+    background-color: white;
+
+}
+
+#overRideTitle {
+    font-size: 75pt;
+    font-family: garamond;
+    font-style: bold;
+}
+
+
